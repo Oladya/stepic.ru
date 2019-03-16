@@ -1,0 +1,11 @@
+
+
+
+genome = input()
+cnt = 0
+for nucl in genome:
+    if nucl == "C":
+        cnt += 1
+print(cnt)
+
+print(genome.count("C"))
